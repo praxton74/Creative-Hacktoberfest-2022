@@ -1,0 +1,134 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        text-align: left;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 16px;
+        left: 32px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 16px;
+        right: 32px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .centered {
+        position: absolute;
+        top: 189px;
+        left: 32px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .button {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        margin: 4px 2px;
+        cursor: pointer;
+        top: 400px;
+        left: 32px;
+        font-size: 20px;
+        text-align: left;
+        font-weight: bold;
+        padding: 6px;
+        margin: 4px;
+    }
+
+    .search-button {
+        color: white;
+        position: absolute;
+        top: -390px;
+        left: 707px;
+        font-size: 20px;
+        background-color: rgb(88, 180, 255);
+        height: 41px;
+        width: 275px;
+        border-radius: 12px;
+        border-color: black;
+        text-align: left;
+        padding: 6px;
+        margin: 4px;
+    }
+    
+
+    .edit-button {
+        background-color: rgb(0, 109, 128);
+        padding: 6px;
+        margin: 4px;
+        text-align: center;
+        height: 39px;
+        width: 125px;
+        border-radius: 12px;
+        position: absolute;
+        top: -80px;
+    }
+
+    .rectangle {
+    height: 100px;
+    width: 92%;
+    background-color: rgb(247, 247, 247);
+    position: relative;
+    padding: 17px;
+    align-self: center;
+    display: flow-root;
+    left: 30px;
+    top: -102px;
+    border-radius: 16px;
+      }
+
+    .image{
+        text-align: center;
+        position: relative;
+        top: -116px;
+    }
+    .icon{
+        position: absolute;
+        top: 15px;
+        right: 179px;
+       
+    }
+    .connect {
+        color: white;
+        position: absolute;
+        top: 22px;
+        left: 100px;
+        font-size: 20px;
+        background-color: rgb(52, 0, 128);
+        height: 46px;
+        width: 145px;
+        border-radius: 12px;
+        border-color: black;
+        text-align: center;
+        padding: 6px;
+        margin: 4px;
+    }
+    
+
+    .message {
+    background-color: rgb(52, 0, 128);
+    padding: 6px;
+    margin: 4px;
+    text-align: center;
+    height: 46px;
+    width: 145px;
+    border-radius: 12px;
+    position: absolute;
+    top: 22px;
+    left: 1000px;
+    right: 100px;
+    }
